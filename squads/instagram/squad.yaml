@@ -1,0 +1,32 @@
+name: "Instagram Content"
+code: instagram
+icon: 📸
+description: >
+  Creates and publishes Instagram carousel posts. Researches trends,
+  writes engaging captions, designs slide content, and publishes
+  directly to Instagram via the Graph API.
+version: "1.0.0"
+
+skills:
+  - web_search
+  - web_fetch
+  - instagram-publisher
+
+agents:
+  - id: researcher
+    path: ./agents/researcher.agent.md
+  - id: copywriter
+    path: ./agents/copywriter.agent.md
+  - id: publisher
+    path: ./agents/publisher.agent.md
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+
+pipeline:
+  path: pipeline/pipeline.yaml

@@ -1,0 +1,12 @@
+name: "Instagram Content Pipeline"
+squad: instagram
+version: "1.0.0"
+description: >
+  Full pipeline for creating and publishing Instagram carousel posts.
+  From topic research to final publication with user checkpoints.
+
+steps:
+  - file: steps/step-01-research.md
+  - file: steps/step-02-write.md
+  - file: steps/step-03-review.md
+  - file: steps/step-04-publish.md

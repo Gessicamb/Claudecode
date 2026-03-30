@@ -1,0 +1,4 @@
+id,name,title,icon,path
+researcher,Researcher,Instagram Research Specialist,🔍,./agents/researcher.agent.md
+copywriter,Copywriter,Instagram Content Writer,✍️,./agents/copywriter.agent.md
+publisher,Publisher,Instagram Publishing Agent,🚀,./agents/publisher.agent.md
